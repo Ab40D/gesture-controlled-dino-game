@@ -1,0 +1,10 @@
+# Camera capture + on-screen UI
+opencv-python>=4.8.0
+
+# On-device hand landmark detection (model bundled in the wheel, fully offline)
+# NOTE: MediaPipe currently ships wheels for Python 3.9-3.12 only.
+mediapipe>=0.10.9
+
+# Keyboard control (single SPACE presses)
+# On Linux X11 it additionally needs the system package python-xlib.
+PyAutoGUI>=0.9.54
